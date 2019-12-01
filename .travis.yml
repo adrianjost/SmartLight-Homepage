@@ -5,9 +5,4 @@ git:
   lfs_skip_smudge: true
 script:
   - npm run build
-deploy:
-  skip-cleanup: true
-  provider: firebase
-  on:
-    branch: master
 cache: npm
