@@ -1,0 +1,13 @@
+language: node_js
+node_js:
+  - "lts/*"
+git:
+  lfs_skip_smudge: true
+script:
+  - npm run build
+deploy:
+  skip-cleanup: true
+  provider: surge
+  project: ./dist/
+  domain: smartlight.ga
+cache: npm
