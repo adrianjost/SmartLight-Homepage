@@ -1,15 +1,14 @@
 name: deploy_to_firebase_hosting
-
 on:
   push:
-    branches: master
-
+    branches: 
+      - main
 jobs:
   deploy_to_firebase_hosting:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout the repository
-        uses: actions/checkout@master
+        uses: actions/checkout@v2
       - name: Build
         run: |
           npm run build

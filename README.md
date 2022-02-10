@@ -1,2 +1,3 @@
+# Homepage of SmartLight
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/adrianjost/SmartLight-Homepage.svg)](https://greenkeeper.io/)
+🌐 Visit: https://smartlight.hackedit.de

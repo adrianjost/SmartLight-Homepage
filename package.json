@@ -1,7 +1,7 @@
 {
   "name": "smartlight-homepage",
   "version": "1.0.0",
-  "description": "",
+  "description": "Homepage of the SmartLight project",
   "scripts": {
     "dev": "parcel index.html",
     "build": "parcel build index.html"
@@ -20,6 +20,6 @@
   },
   "homepage": "https://github.com/adrianjost/SmartLight-Homepage#readme",
   "devDependencies": {
-    "parcel-bundler": "^1.12.5"
+    "parcel": "^2.3.0"
   }
 }
